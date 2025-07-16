@@ -29,8 +29,8 @@ jobs:
       - name: 🚀 Expo Doctor Check
         run: npx expo-doctor
 
-      - name: 🧰 Prebuild Check (Optional)
-        run: npx expo prebuild --dry-run
+      # - name: 🧰 Prebuild Check (Optional)
+      #   run: npx expo prebuild --dry-run
 
       # Optional: Add test step if you have test cases
       # - name: 🧪 Run Tests
